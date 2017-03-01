@@ -1,6 +1,67 @@
-
+body{
+    overflow: hidden;
+}
 .boxes {
     background-color: darkgray;
     border-width: 1px;
     border-radius: 5px;
 }
+
+#first{
+    margin: 20px;
+}
+
+#second{
+ margin: -30px;
+}
+
+#third{
+margin: -40px;
+}
+
+#fourth{
+    margin:-30px;
+}
+
+#fifth{
+    margin:-30px;
+}
+
+#gmail{
+    transform: scale(1);
+}
+
+#youtube{
+transform: scale(0.9);
+}
+
+#undefined{
+    transform: scale(0.4);
+}
+
+#face{
+    transform: scale(1.2);
+}
+
+#linkedin{
+    transform: scale(1.1);
+}
+
+#github{
+    transform: scale(1.4);
+}
+
+#instagram{
+    transform: scale(0.8);
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+img{
+    transition: all .2s ease-in-out;
+}
+
+
+
